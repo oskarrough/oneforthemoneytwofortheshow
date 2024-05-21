@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>One for the money two for the show</title>
+	<meta name="description" content="My own website">
+	<!-- <link rel="stylesheet" href="main.css"> -->
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<style>
+		html {
+			/* specify doc at least fits viewport height */
+			block-size: 100%;
+
+			background: hotpink;
+		}
+
+		body {
+			/* body is at least html height */
+			min-block-size: 100%;
+			margin: 0;
+		}
+
+		.pile {
+			display: grid;
+			place-content: center;
+
+			>* {
+				grid-area: 1/1;
+			}
+		}
+	</style>
+</head>
+
+<body class="pile">
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Bm5HKlQ6nGM?si=620fAf0F4DWPgf2M"
+		title="YouTube video player" frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
